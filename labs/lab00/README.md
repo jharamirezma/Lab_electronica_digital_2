@@ -1,6 +1,6 @@
 # Instalación de herramientas 
 
-* ### [*FPGA Design Software* - Vivado](/labs/lab00/Quartus_installation_guide.md)
+* ### [*FPGA Design Software* - Vivado](/labs/lab00/Vivado_vitis_installation_guide.md)
 
     * #### [Tutorial de implementación en la FPGA ZYNQ XC7Z010 ](/labs/lab00/Vivado_vitis.md)
 
