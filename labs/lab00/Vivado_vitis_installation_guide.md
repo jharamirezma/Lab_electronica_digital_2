@@ -1,15 +1,12 @@
-# Tutorial para instalar y configurar FPGA Design Software - Vivado.
+# Tutorial de instalación y configuración   FPGA Design Software - Vivado.
 
 Índice:
 
-* [Descargar e instalar Vivado- vitis](#descargar-e-instalar-intel-quartus-prime).
-* [Configurar la variable de entorno](#configuración-de-la-variable-de-entorno)
-* [Entregables](#entregables)
-
-
+- [Descargar e instalar Vivado™ Edition  2025.1](#descargar-e-instalar-vivado-edition-20251)
+- [Configurar alias](#configurar-alias)
 *  *  *  *  *
 
-## Descargar e instalar Vivado™ Edition - 2025.1:
+## Descargar e instalar Vivado™ Edition 2025.1
 
 * Cree un cuenta en la pagina de Xilinx en el siguiente [link](https://www.amd.com/en/registration/create-account.html).
 
@@ -98,3 +95,31 @@ Y luego proceda con la instalación de Vivado.
     ``` 
     sudo ./vivado
     ```
+
+    ## Configurar alias
+
+    Para poder ejecutar el programa de vivado en la terminal sin especificar la ruta ni el nombre del ejecutable, es necesario crear un alias del ejecutable en el bashrc. Para esto debe abrir una terminal y dirigirse a la carpeta de usuario:
+
+    ```
+    cd ~
+    ```
+
+    Ahora vamos a editar el archivo bashrc (Para linux mint) donde crearemos el alias de vivado. Para esto vamos a abrir el archivo, ya sea desde consola utilizando el comando ```nano``` o con un editor de codigo. Utilizando ```nano``` se hace de la siguiente manera:
+
+    ```
+    nano .bashrc
+    ```
+    
+    En la terminal se podra editar el basch, nos dirigimos a la ultima fila del documento y agregamos las siguiente instrucción, luego guardamos y cerrammos:
+
+    ```
+    alias vivado='/tools/Xilinx/2025.1/Vivado/bin/vivado'
+    ```
+
+    Luego se debe reiniciar el bash, para ello ejecutamos en la terminal el siguiente comando:
+
+    ```
+    source ~/.bashrc
+    ```
+
+    Ahora en la teminal se podrá ejecutar la instrucción ```vivado``` para abrir el programa. 
