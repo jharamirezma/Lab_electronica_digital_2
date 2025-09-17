@@ -160,7 +160,7 @@ El laboratorio de Electrónica Digital II tiene como objetivo principal compleme
     <td>-</td>
   </tr>
     <tr>
-    <td>1-2</td>
+    <td>4-5</td>
     <td>Lab01 - Multiplicador y ASM</td>
     <td><a href="/labs/lab01/README.md">lab01</a></td>
     <td><a href="https://classroom.github.com/a/PZHH43SS">Link</a></td>
