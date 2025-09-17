@@ -1,15 +1,5 @@
 # Tutorial de implementación en la FPGA Zybo Z7 usando Vivado
 
-Índice:
-
-  - [Configuración básica para crear un nuevo proyecto](#configuración-básica-para-crear-un-nuevo-proyecto)
-  - [Pasos para realizar la implementación](#pasos-para-realizar-la-implementación)
-
-      1. [Seleccionar el módulo principal](#)
-      2. [Configurar el Pinout](#)
-      3. [Ejecutar el flujo de implementación del diseño](#)
-      4. [Cargar el diseño en la FPGA](#)
-
 
 ---
 ## Configuración básica para crear un nuevo proyecto
