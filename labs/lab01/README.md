@@ -99,3 +99,4 @@ El módulo multiplicador realiza la multiplicación de dos números de 3 bits ca
 3. Realice cada uno de los pasos descritos en [Procedimiento](#3-procedimiento) y muestre las respectivas evidencias en clase y en el ```README.md```.
 
 4. Adjunte las evidencias en su respectivo repositorio en Github classroom.
+
