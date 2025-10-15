@@ -1,4 +1,4 @@
-# Lab03: Unidad Aritmético-Lógica y banco registro.
+# Lab03: ALU y banco registro.
 
 ### Contenido:
 
@@ -19,10 +19,7 @@
 
 * Desarrollar un sistema de visualización para monitorear los datos almacenados en el banco de registros, permitiendo analizar el comportamiento interno del procesador.
 
-* Diseñar y simular un testbench que valide el correcto funcionamiento de la ALU y el banco de registros en un entorno digital.
-
-* Integrar los módulos desarrollados en una plataforma de hardware (Vivado), utilizando dispositivos de entrada/salida para interactuar y observar el procesamiento de datos.
-
+* Corroborar el funcionamiento del proyecto mediante implementación sobre la FPGA.
 
 
 ## 2. Fundamento teórico
