@@ -1,8 +1,9 @@
-# Lab04: 
+# Lab04: Procesador Zynq-7000
 
 ### Contenido:
 
-- [Lab04:](#lab04)
+
+- [Lab04: Procesador Zynq-7000](#lab04-procesador-zynq-7000)
     - [Contenido:](#contenido)
   - [1. Objetivos de aprendizaje](#1-objetivos-de-aprendizaje)
   - [2. Fundamento teórico](#2-fundamento-teórico)
@@ -12,14 +13,14 @@
     - [3.2 Crearción del SoC en vivado](#32-crearción-del-soc-en-vivado)
     - [3.3 Entorno de Vitis.](#33-entorno-de-vitis)
   - [4. Entregables](#4-entregables)
+  - [5. Referencias](#5-referencias)
 
 
 ## 1. Objetivos de aprendizaje
 
-* Implmentar un SoC 
-
-
-
+* Implmentar un SoC mediante la herramienta ```Block Design``` de vivado.
+* Identificar los bloques que componen el procesador del Zynq-7000.
+* Identificar las partes que componen el SoC a implementar.
 
 
 ## 2. Fundamento teórico
@@ -148,3 +149,10 @@ Si tiene dudas respecto a las conexiones, revise el video en la sección de refe
 3. Realice cada uno de los pasos descritos en [Procedimiento](#3-procedimiento) y muestre las respectivas evidencias en clase y en el ```README.md```.
 
 4. Adjunte las evidencias en su respectivo repositorio en Github classroom.
+
+## 5. Referencias
+
+
+- FPGAs for Beginners. (2023, 28 julio). Zynq Part 1: Vivado block diagram (no Verilog/VHDL necessary!) [Vídeo]. YouTube. https://www.youtube.com/watch?v=UZ3FnZNlcWk
+
+- SoC AMD ZynqTM 7000. (s. f.). AMD. https://www.amd.com/es/products/adaptive-socs-and-fpgas/soc/zynq-7000.html
