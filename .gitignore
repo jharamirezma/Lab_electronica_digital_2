@@ -1,0 +1,19 @@
+# Ignore compiled output files
+*.o
+*.exe
+build/
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+.Xil/
+
+# Ignore node modules
+node_modules/
+
+# Ignore sensitive data (use with caution, environment variables are preferred)
+config.ini
