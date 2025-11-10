@@ -1,5 +1,7 @@
 # Lab04: Procesador Zynq-7000
 
+----------------------------------------
+
 ### Contenido:
 
 
@@ -137,8 +139,44 @@ Si tiene dudas respecto a las conexiones, revise el video en la sección de refe
 
 ### 3.3 Entorno de Vitis.
 
+La Plataforma de Software Viti es un entorno de desarrollo integral diseñado para crear aplicaciones aceleradas en dispositivos de hardware adaptable de AMD, como los SoC y las FPGA. Vitis proporciona un nivel de abstracción más alto, trabajando en conjunto con una herramienta de diseño de hardware como lo es Vivado. Esto simplifica el proceso de desarrollo al ocultar la complejidad de la programación de lógica de hardware a bajo nivel.
 
 
+Para continuar con el un proyecto en vitis, realice los siguientes pasos:
+
+1. Abrir el entorno de vitis, para ello desde vivado haga clic en Tools -> Launch Vitis IDE.
+
+![Vitis](/labs/Lab04/pics/openVitis.png)
+
+2. En la ventana principal de vitis haga clic en <u>__Set Workspace__</u> y seleccione el fichero donde va a crear la aplicación.
+
+3. Ahora haga clic en <u>__Create Platform Component__</u>. En la ventana ```Name and Location```, en la casilla ```Component name```, elija un nombre para la platafotma y luego de clic en ```Next```. En la pestaña ```Flow``` seleccione la opción ```Hardware Desing```, luego de clic en ```Browse```, busque y seleccione el archivo ```XSA``` que generó en vivado, luego de clic en ```Next```. En la ventana ```OS and Processor``` seleccione las opciones que aparecen en la siguiente imagen y de clic en ```Next```. En la pestaña ```Summary``` de clic en ```Finish```.
+
+![Vitis](/labs/Lab04/pics/Platform.png)
+
+
+4. En la ventana izquierda seleccione la plataforma que acaba de crear y en la parte suerior seleccione el icono ```+``` y ```Application```.
+
+
+![Vitis](/labs/Lab04/pics/Application.png)
+
+5. En la ventana ```Create Application Component - Empty Application```, en la pestaña ```Component name``` Elija un nombre para la aplicación y de clic en ```Next```. En la pestaña ```Hardware``` seleccione la plataforma que creó en el item 3 y de clic en next.
+
+![Vitis](/labs/Lab04/pics/ApplicationPla.png)
+
+6. En la pestaña ```Domain``` asegurese que este seleccionado el que está por defecto y creo en la plataforma, luego de clic en ```Next```.
+
+
+![Vitis](/labs/Lab04/pics/ApplicationDom.png)
+
+
+7. En la pestaña ```Add Source Files``` añada el archivo ```main.c``` que se enuentra en la carpeta ```scr``` en el repositorio del laboratorio 4.
+
+8. En la pestaña ```Summary``` haga una revisión del resumen que se muestra e identifique que las opciones son correctas. De clic en ```Finish```.
+
+9. En la ventana ````FLOW```` a la izquierda, de clic en ```Build```, si no tiene errores, conecte la ```FPGA``` y de clic en ```RUN```. Debera ver parpadear los leds de la Zybo.
+
+![Vitis](/labs/Lab04/pics/Build.png)
 
 ## 4. Entregables
 
