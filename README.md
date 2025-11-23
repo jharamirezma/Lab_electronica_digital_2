@@ -3,9 +3,12 @@ _____________________________
 _____________________________
  
 ### Índice: 
-- [Introducción](#introducción)
-- [Metodología](#metodología)
-- [Cronograma](#cronograma)
+- [Labaratorio electrónica digital II - 2025-II](#labaratorio-electrónica-digital-ii---2025-ii)
+    - [Índice:](#índice)
+  - [Introducción](#introducción)
+    - [Docente de laboratorio:](#docente-de-laboratorio)
+  - [Metodología](#metodología)
+  - [Cronograma](#cronograma)
 
 
 ## Introducción 
@@ -180,6 +183,13 @@ El laboratorio de Electrónica Digital II tiene como objetivo principal compleme
     <td><a href="/labs/lab03/README.md">lab03</a></td>
     <td><a href="https://classroom.github.com/a/pUemHrhL">Link</a></td>
     <td>25/10/2025</td>
+  </tr>
+    <tr>
+    <td>11-14</td>
+    <td>Lab04 - Procesador Block Design</td>
+    <td><a href="/labs/lab04/README.md">lab04</a></td>
+    <td><a href="https://classroom.github.com/a/hxbA_RHD">Link</a></td>
+    <td>03/12/2025</td>
   </tr>
   <tr>
     <td>3-16</td>

@@ -2,15 +2,18 @@
 *.o
 *.exe
 build/
+.Xil/
+
 
 # Ignore temporary files
 *.log
 *.tmp
 
+
 # Ignore IDE-specific files
 .vscode/
 .idea/
-.Xil/
+
 
 # Ignore node modules
 node_modules/
