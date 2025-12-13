@@ -194,8 +194,8 @@ El laboratorio de Electrónica Digital II tiene como objetivo principal compleme
   <tr>
     <td>3-16</td>
     <td>Proyecto final</td>
-    <td><a href=""> </a></td>
-    <td></td>
-    <td></td>
+    <td><a>-</a></td>
+    <td><a href="https://classroom.github.com/a/eiNgq3fR">Link</a></td>
+    <td>13/12/2025</td>
   </tr>
 </table>
